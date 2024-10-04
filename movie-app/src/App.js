@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+ /*imports files from components folder*/
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      {/*Locale date displayed on page*/}
-      <h2>It is {new Date().toLocaleTimeString()}</h2>
+    <div>
+       {/*Invoking imported variables from the components*/}
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
