@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Content = () => {
   return (
     <div>
@@ -9,5 +7,5 @@ const Content = () => {
     </div>
   );
 }
-
+//When imported to app.js and called via <Content /> function is run and prints hello world and locale time to screen
 export default Content;
