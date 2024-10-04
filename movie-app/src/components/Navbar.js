@@ -10,14 +10,14 @@ const NavigationBar = () => {
           <Container>
             <Navbar.Brand href="/">Navbar</Navbar.Brand>
             <Nav className="me-auto">
-                {/**/}
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/create">Create</Nav.Link>
-              <Nav.Link href="/read">Read</Nav.Link>
+                {/*linkings differents tabs in the navbar with specific hrefs*/}
+                <Nav.Link href="/home">Home</Nav.Link>
+                <Nav.Link href="/create">Create</Nav.Link>
+                <Nav.Link href="/read">Read</Nav.Link>
             </Nav>
           </Container>
       </Navbar>
   );
 };
-
+//call this in the app.js to make use of this navbar template
 export default NavigationBar;
