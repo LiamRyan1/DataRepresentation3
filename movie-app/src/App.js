@@ -15,7 +15,7 @@ function App() {
         <Route path="/read" element={<h1> <Footer /></h1>} />
         <Route path="/create" element={<h1><Header /></h1>} />
       </Routes>
-      {/*calls footer function 
+      {/*calls footer components
       <Footer />*/}
     </Router>
   );
