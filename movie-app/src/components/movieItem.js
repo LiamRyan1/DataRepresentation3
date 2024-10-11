@@ -1,8 +1,8 @@
 const MovieItem = (props)=>{
     return(
         <div>
-            <h3>{props.myMovie.Title}</h3>
-            <footer>{props.myMovie.Year}</footer>
+            <p>{props.myMovie.Title}</p>
+            <p>{props.myMovie.Year}</p>
             <img src ={props.myMovie.Poster} ></img>
             
         </div>
