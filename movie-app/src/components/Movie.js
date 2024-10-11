@@ -1,8 +1,11 @@
+import MovieItem from "./movieItem";
+
 const Movies = (props) => {
-    return(
-        <div>my Movies component
-            {console.log(props.myMovies)}
-        </div>
+    return props.myMovies.map(
+        ()=>{
+            return <MovieItem/>
+        }
+       
     );
   };
 
