@@ -25,8 +25,11 @@ const Reader = () => {
           "Poster": "https://m.media-amazon.com/images/M/MV5BNDQ4YzFmNzktMmM5ZC00MDZjLTk1OTktNDE2ODE4YjM2MjJjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
         }
       ];
-      <Movies/>
-    return  <h3>Hello from the Read component</h3>
+      
+    return  (<div>
+                <Movies myMovies={data}/>
+                <h3>Hello from the Read component</h3> 
+            </div>);
 }
 
 export default Reader;
