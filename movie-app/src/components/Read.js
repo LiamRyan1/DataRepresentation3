@@ -1,9 +1,10 @@
-import Movies from "./Movie";
+import Movies from "./Movie";//import Movies compoment from movie
 
 const Reader = () => {
     //hold json data
     const data = [
         {
+            //contains properties of movies such as title,year,imdbid,type,poster
           "Title": "Avengers: Infinity War",
           "Year": "2018",
           "imdbID": "tt4154756",
@@ -27,7 +28,7 @@ const Reader = () => {
       ];
       
     return  (<div>
-                <Movies myMovies={data}/>
+                <Movies myMovies={data}/>{/*Movies recieve data through myMovies prop ,movies will loop though each movie object and render the contents*/}
                 <h3>Hello from the Read component</h3> 
             </div>);
 }
